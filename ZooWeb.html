@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>'
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="ZooWeb.js"></script>'
+    <link rel="stylesheet" href="ZooWeb.css">
+    <title>W3.CSS</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+</head>
+<body>
+<h2>
+    Zoo
+    <br><br>
+    <div1>Create new Animal
+    <br>
+    Name:
+    <input type="text" id="name" size="15px" height="5px">
+    <br>
+    <select id="animal">
+        <option value="0">Select Animal</option>
+        <option value="1">Tiger</option>
+        <option value="2">Bear</option>
+        <option value="3">Unicorn</option>
+        <option value="4">Giraffe</option>
+        <option value="5">Bee</option>
+    </select>
+
+    </div1>
+    <br>
+    <button id="Create Animal" onclick="createAnimal()" class="w3-button w3-round-large w3-border w3-white w3-medium" >Create Animal!</button>
+    <br><br>
+
+    Feed my Animals
+    <br>
+    Food:
+    <input type="text" id="food" size="15px" height="5px">
+    <br>
+    <button id="Feed an Animal" onclick="feed()" class="w3-button w3-round-large w3-border w3-white w3-medium" >Feed Animal!</button>
+    <br><br>
+
+    Delete an Animal
+    <br>
+    Name:
+    <input type="text" id="dname" size="15px" height="5px">
+    <br>
+    <button id="Delete" onclick="Delete()" class="w3-button w3-round-large w3-border w3-white w3-medium" >Delete an Animal</button>
+<br><br>
+    <button id="print" onclick="printBarn()" class="w3-button w3-round-large w3-border w3-white w3-medium" >Show me my Animals</button>
+</h2>
+</body>
+
+<h1>
+    <div2 id="happening">
+    </div2>
+</h1>
+</html>
